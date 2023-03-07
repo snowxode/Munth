@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 83386998f1f9c4d41b33911c4a91525f, type: 3}
+  m_Name: Starting State
+  m_EditorClassIdentifier: 
+  storyText: "You are confronted by a blob with shady looking horns in the middle
+    of the pathway\r\nYou are unsure what its intentions are\r\n\r\n1: You decide
+    to walk around it cautiously\r\n2: You take a swing"
+  nextStates:
+  - {fileID: 11400000, guid: d9fb86d5283c8fa4f8a622999a0e2f3f, type: 2}
+  - {fileID: 11400000, guid: 55e48f901a5e90f4cb1a7e983fbd790b, type: 2}
